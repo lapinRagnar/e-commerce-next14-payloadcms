@@ -28,6 +28,14 @@ et on obient ca :
 
 maintenant il faut configurer le site à notre sauce.
 
+# configuration css
+voir le code sur github
+
+
+
+# le tuto
+https://www.youtube.com/watch?v=3JUsg-WsU9o&t=1521s
+
 
 
 

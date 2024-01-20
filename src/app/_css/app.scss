@@ -42,6 +42,8 @@ html,
 body,
 #app {
   height: 100%;
+    // provisoir 
+    background: rgba($color: #66506a, $alpha: 1.0);
 }
 
 body {
@@ -51,6 +53,8 @@ body {
   color: var(--color-dark-500);
   display: flex;
   flex-flow: column;
+
+
 }
 
 .main {
