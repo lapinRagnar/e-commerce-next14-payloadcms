@@ -49,6 +49,7 @@ yarn generate:types
 
 # le tuto
 https://www.youtube.com/watch?v=3JUsg-WsU9o&t=1521s
+https://github.com/adrianhajdin/ecommerce
 
 
 
