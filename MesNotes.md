@@ -32,10 +32,23 @@ maintenant il faut configurer le site à notre sauce.
 voir le code sur github
 
 
+## graphql
+
+
+```cmd
+npm install --global yarn
+```
+### après modification de la config de la base donnée, on lance cette commande
+
+```cmd
+yarn payload generate:graphQLSchema
+yarn generate:types   
+```
+
+
 
 # le tuto
 https://www.youtube.com/watch?v=3JUsg-WsU9o&t=1521s
-
 
 
 
