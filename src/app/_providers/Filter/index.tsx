@@ -6,14 +6,14 @@ interface IContextType {
   categoryFilters: string[]
   setCategoryFilters: React.Dispatch<React.SetStateAction<string[]>>
   sort: string
-  setShort: React.Dispatch<React.SetStateAction<string>>
+  setSort: React.Dispatch<React.SetStateAction<string>>
 }
 
 export const INITIAL_FILTER_DATA = {
   categoryFilters: [],
   setCategoryFilters: () => [],
   sort: '',
-  setShort: () => '',
+  setSort: () => '',
 }
 
 const FilterContext = createContext<IContextType>(INITIAL_FILTER_DATA)
@@ -29,7 +29,7 @@ export const FilterProvider = ({ children }: { children: React.ReactNode }) => {
       categoryFilters: categoryFilter,
       setCategoryFilters: setCategoryFilter,
       sort,
-      setShort: setSort
+      setSort: setSort
     }}>
       {children}
     </FilterContext.Provider>
